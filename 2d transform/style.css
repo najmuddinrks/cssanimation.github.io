@@ -1,0 +1,26 @@
+#rks{
+	width: 350px;
+	height: 120px;
+	border:1px solid #000;
+	background: tomato;
+	color: #fff;
+	text-align: center;
+}
+#rks1{
+	font-family: futura md bt;
+	font-size: 2em;
+	width: 350px;
+	height: 120px;
+	border:2px solid #000;
+	border-radius: 15px 12px 12px 15px;
+	background: skyblue;
+	color: #fff;
+	text-align: center;
+	transform: matrix(1,-0.5,0,2,50,50);
+	transition: 0.5s ease-in-out;
+}
+#rks1:hover{
+	background: #ffd883;
+	color: #f00;
+	transform: translate(10px,5px); 
+}
