@@ -1,0 +1,31 @@
+@charset "utf-8";
+*
+body{
+	margin:0;
+	padding:0;
+	background:#313131;
+	}
+.slider{
+	width:900px;
+	height:554px;
+	background:url(../images/20160815042254.png);
+	background-size:contain;
+	margin:100px auto;
+	animation:slide 15s infinite;
+	}
+	
+@keyframes slide{
+	25%{background:url(../images/20160815042254.png);
+	background-size:contain;
+		}
+	50%{background:url(../images/BeautyPlus_20201214032757219_save.jpg);
+	background-size:contain;
+		}
+	75%{background:url(../images/BeautyPlus_20201225164753758_save.jpg);
+	background-size:contain;
+		}
+	100%{background:url(../images/IMG_20191221_155612.jpg);
+	background-size:contain;
+		}			
+	}		
+
