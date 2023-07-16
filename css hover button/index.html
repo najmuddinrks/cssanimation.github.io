@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover button</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0; padding: 0; box-sizing: border-box;
+        }
+        ul li {
+            list-style: none;
+        }
+        a {
+            text-decoration: none !important;
+        }
+        body{
+            min-height: 100vh;
+            width: 100vw;
+            background-color: #273c75;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        html {
+            font-size: 62.5%;
+        }
+        .serach-box{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .searchText{
+            width: 0rem;
+            border-radius: 5rem;
+            border: none;
+            outline: none;
+            transition: 0.5s ease-in-out;
+            overflow: hidden;
+        }
+        
+        .searchButton{
+            width: 5rem;
+            height: 5rem;
+            background-color: #192a56;
+            color: #fff;
+            border-radius: 5rem;
+            position: absolute;
+            right: 1rem;
+            display: grid;
+            place-items: center;
+            cursor: pointer;
+        }
+        .serach-box:hover > .searchText{
+            width: 25rem;
+            padding: 2rem;
+            box-shadow: 0 2rem 2rem -1.5rem #0005;
+        }
+        .serach-box:hover > .searchButton{
+            background-color: #fff;
+            color: royalblue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="serach-box">
+        <input type="text" class="searchText" placeholder="Type to search...">
+        <a href="#" class="searchButton">
+            <i class="fas fa-search fa-3x"></i>
+        </a>
+    </div>
+</body>
+</html>
