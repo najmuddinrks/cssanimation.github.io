@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+#main-area{
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+	/*background: #158dea;*/
+	background: url("images/jlaw.jpg") center no-repeat;
+	background-size: 100% 100%;
+	transition: 0.5s ease-in-out;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+}
+#main-area:hover{
+	/*transform: rotate(360deg);*/
+	/*transform: rotateX(360deg);*/
+	/*transform: rotateY(360deg);*/
+	/*transform: translateX(-200px);*/
+	/*transform: translateY(200px);*/
+	/*transform: translateX(200px);*/
+	/*transform: translateY(-200px);*/
+	/*transform: scale(1.5,1.5);*/
+	/*transform: scaleX(1.2);*/
+	/*transform: scaleY(1.2);*/
+	transform: translate(22px);
+	/*transform: skew(10deg,20deg);*/
+}
+.left {
+	width: 50%;
+	height: 600px;
+	float: left;
+	/*background: #baba00;*/
+	background: url("images/images/images/hbk1.png") left no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	transition: 0.5s ease-in-out;
+	left: 0;
+}
+#main-area:hover .left {
+	left: -50%;
+}
+.right {
+	width: 50%;
+	height: 600px;
+	float: left;
+	/*background: #baba00;*/
+	background: url("images/images/images/hbk2.png") right no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	transition: 0.5s ease-in-out;
+	right: 0;
+}
+#main-area:hover .right {
+	right: -50%;
+}
+.top {
+	width: 600px;
+	height: 50%;
+	float: left;
+	/*background: #350000;*/
+	background: url("images/images/images/rks1.png")top  no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	transition: 0.5s ease-in-out;
+	top: 0;
+}
+#main-area:hover .top {
+	top: -50%;
+}
+.bottom {
+	width: 600px;
+	height: 50%;
+	float: left;
+	/*background: #350000;*/
+	background: url("images/images/images/rks2.png")bottom no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	transition: 0.5s ease-in-out;
+	bottom: 0;
+}
+#main-area:hover .bottom {
+	bottom: -50%;
+}
