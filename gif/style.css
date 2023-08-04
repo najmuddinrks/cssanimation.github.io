@@ -1,0 +1,16 @@
+@charset "utf-8";
+body{
+	margin:0;
+	padding:0;
+	}
+h1{
+	width:100%;
+	font-size:12em;
+	text-align:center;
+	color:#000;
+	background:url("images/4.gif") no-repeat;
+	background-size: 100% 100%;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	}	
+	
