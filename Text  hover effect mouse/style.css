@@ -1,0 +1,28 @@
+@charset "utf-8";
+body{
+	margin:0;
+	padding:0;
+	}
+.Rks{
+	font-size:120px;
+	font-family:"Times New Roman", Times, serif;
+	text-transform:uppercase;
+	letter-spacing:9px;
+	font-weight:700;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	color:#1d6119;
+	}
+.Rks:before{
+	content:"Realkingspecials";
+	color:#000;
+	position:absolute;
+	overflow:hidden;
+	width:0;
+	transition:0.9s;
+	}	
+.Rks:hover:before{
+	width:100%;
+	}
